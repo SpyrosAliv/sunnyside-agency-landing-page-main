@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  
 
 </head>
 <body>
@@ -16,9 +17,17 @@
     <div id="logo">
       <img src="../images/logoWhite.svg" alt="sunnyside">
     </div>
-    <button id="hamburger">
+    <button id="hamburger" onclick="controlMenu()">
       <img src="../images/icon-hamburger.svg" alt="open menu">
     </button>
+    <div id="menu-items">
+      <ul>
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+        <li id="contact">CONTACT</li>
+      </ul>
+    </div>
     
   </div>
   <div id="header-images" class="main-section">
@@ -115,6 +124,6 @@
       <img src="../images/icon-pinterest.svg" alt="facebook">
     </div>
   </footer>
-  
+  <script src="./menu.js"></script>
 </body>
 </html>
