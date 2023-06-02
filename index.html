@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
 
 </head>
@@ -50,7 +51,7 @@
     </div>
     <div class="desktop-row">
       <img src="../images/mobile/image-transform.jpg" alt="image" class="mobile1">
-      <div class="info-sector">
+      <div class="info-sector" data-aos="fade-up " data-aos-duration="1000">
         <h2>Transform your brand</h2>
         <p>We are a full-service creative agency specializing in helping brands grow fast. 
         Engage your clients through compelling visuals that do most of the marketing for you.</p>
@@ -61,7 +62,7 @@
     <div class="desktop-row" id="second-desktop-row">
       <img src="../images/mobile/image-stand-out.jpg" alt="image" class="mobile">
       <img src="../images/desktop/image-stand-out.jpg" alt="image" class="desktop">
-      <div class="info-sector">
+      <div class="info-sector" data-aos="fade-up" data-aos-duration="1000">
         <h2>Stand out to the right audience</h2>
         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
         <a href="#header-images" id="second-a">LEARN MORE</a>
@@ -69,13 +70,13 @@
     </div>
     <div class="desktop-row-info">
     <div class="image-information" id="graphic-design">
-      <div class="image-text">
+      <div class="image-text" data-aos="fade-up">
         <h2>Graphic Design</h2>
         <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
       </div>
     </div>
     <div class="image-information" id="photography">
-      <div class="image-text">
+      <div class="image-text" data-aos="fade-up">
         <h2>Photography</h2>
         <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
       </div>
@@ -86,7 +87,7 @@
       <h5>CLIENT TESTIMONALS</h5>
       <div id="all-testimonals">
       <div class="testimonals">
-        <div class="testimonal">
+        <div class="testimonal" data-aos="fade-up">
           <img src="../images/image-emily.jpg" alt="emily">
           <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
           <div class="client-info">
@@ -96,7 +97,7 @@
         </div>
       </div>
       <div class="testimonals">
-        <div class="testimonal">
+        <div class="testimonal" data-aos="fade-up">
           <img src="../images/image-thomas.jpg" alt="thomas">
           <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
           <div class="client-info">
@@ -106,7 +107,7 @@
         </div>
       </div>
       <div class="testimonals">
-        <div class="testimonal">
+        <div class="testimonal" data-aos="fade-up">
           <img src="../images/image-jennie.jpg" alt="jennie">
           <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
           <div class="client-info">
@@ -152,5 +153,9 @@
     </div>
   </footer>
   <script src="./menu.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
